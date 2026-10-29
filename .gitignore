@@ -1,6 +1,6 @@
 *.Rproj*
 .Rhistory
-output/*.rds
-output/*png
+output/*
+!output/.gitkeep
 *.html
 
