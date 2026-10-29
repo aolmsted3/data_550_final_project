@@ -1,7 +1,3 @@
-R_LIBS_USER := C:/Users/aeolmst/AppData/Local/R/win-library/4.6
-
-export R_LIBS_USER
-
 #! Build Report
 efgh_report.html: code/03_render_report.R raw_data/sim_data.rds \
   output/table_one.rds output/predicted_diarrhea_probability.png
