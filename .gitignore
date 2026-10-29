@@ -1,5 +1,6 @@
 *.Rproj*
 .Rhistory
-output/
+output/*.rds
+output/*png
 *.html
 
