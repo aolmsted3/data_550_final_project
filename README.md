@@ -1,9 +1,3 @@
----
-title: data_550_final_project
-author: Allison Olmsted
-output: github_document
----
-
 # DATA 550: Analysis of Simulated EFGH Data
 
 This is the Github repository which contains all code for the final project analysis. The repository contains the following subfolders:
