@@ -1,3 +1,8 @@
+#! Restore packing envrionment for project
+.PHONY: install
+install:
+	Rscript -e "renv::restore(prompt = FALSE)"
+
 #! Build Report
 efgh_report.html: code/03_render_report.R raw_data/sim_data.rds \
   output/table_one.rds output/predicted_diarrhea_probability.png
